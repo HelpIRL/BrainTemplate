@@ -1,0 +1,50 @@
+# Claude Code local files (not shared)
+.claude/settings.local.json
+CLAUDE.local.md
+**/.claude.local.md
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# IDE and editor
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies (uncomment as needed for your stack)
+# node_modules/
+# vendor/
+# __pycache__/
+# *.pyc
+# .venv/
+# target/
+# bin/
+# obj/
+
+# Build outputs (uncomment as needed)
+# dist/
+# build/
+# out/
+# *.o
+# *.exe
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+.nyc_output/

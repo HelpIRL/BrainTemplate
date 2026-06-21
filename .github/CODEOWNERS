@@ -1,0 +1,17 @@
+# CODEOWNERS - Define who reviews changes to specific files/directories
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# TEMPLATE: Replace @OWNER with your GitHub username or team (e.g., @myuser or @myorg/myteam)
+
+# Default owner for everything
+* @OWNER
+
+# AI behavior and guardrails - require explicit review
+CLAUDE.md @OWNER
+.claude/ @OWNER
+
+# Project context - require explicit review
+CONTEXT.md @OWNER
+
+# Security policy
+.github/SECURITY.md @OWNER

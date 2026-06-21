@@ -1,0 +1,13 @@
+{
+  "$schema": "https://code.claude.com/schemas/mcp.json",
+  "_comment": "MCP server configuration. Shared via git. See: https://modelcontextprotocol.io",
+
+  "mcpServers": {
+    "_example_disabled": {
+      "_comment": "Uncomment and configure MCP servers as needed",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"],
+      "disabled": true
+    }
+  }
+}
