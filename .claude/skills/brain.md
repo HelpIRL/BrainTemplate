@@ -1,7 +1,28 @@
-# Claude Command: BRAIN Method — Project Skeleton & Intent List
+---
+name: brain
+description: BRAIN Method — Create a minimal project scaffold and actionable intent list for a new feature or idea. Use when work is ambiguous, architectural, or likely >60 minutes.
+---
 
-# Copyright (c) 2025 John Hewitt (john@helpirl.com)
-# Licensed under the MIT License. See LICENSE file for details.
+## When to Use
+
+Trigger BRAIN when 2+ of these apply:
+- Likely >60 minutes of focused work
+- Architectural or structural decisions involved
+- New system / workflow / product direction
+- Ambiguity or exploratory thinking
+- Spans multiple domains
+- Long-term impact
+- Risk of scope creep
+
+**Do NOT trigger for:**
+- Refactors
+- Small fixes
+- Single-file edits
+- Clear, bounded implementation
+
+If triggered, recommend BRAIN → ask → start at Phase B (unless the user specifies otherwise). Otherwise proceed normally.
+
+# Claude Command: BRAIN Method — Project Skeleton & Intent List
 
 > **Purpose:** Create a minimal, consistent folder + file scaffold for an idea using the **BRAIN** method, then convert it into an actionable, time-boxed intent list.
 
@@ -154,7 +175,3 @@ Created **only after Arrange approval**.
 7. **Create intent files**: Continue numbering from highest existing N
 8. **Create/update Status.md**
 9. **Report**: Summary of changes + suggested Next action
-
----
-
-> **Usage notes:** `/brain "My Great Feature"` — then follow the execution order above.
